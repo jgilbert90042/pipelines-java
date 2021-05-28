@@ -8,8 +8,11 @@ trigger:
 
 pool: Default
 
+variables:
+  solution: '**/*.xml'
+
 steps:
-- script: echo Hello, world!
+- script: 'echo Hello, $(solution)!'
   displayName: 'Run a one-line script'
 
 - script: |
