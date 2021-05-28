@@ -8,28 +8,6 @@
   <name>Hello world sample web app</name>
   <url>http://maven.apache.org</url>
 
-  <repository>
-    <id>AzurePipelinesTutorial</id>
-    <url>https://pkgs.dev.azure.com/jgilbert90042/269dd93b-ea7f-4dac-9b00-95b28d913c31/_packaging/AzurePipelinesTutorial/maven/v1</url>
-    <releases>
-      <enabled>true</enabled>
-    </releases>
-    <snapshots>
-      <enabled>true</enabled>
-    </snapshots>
-  </repository>
-
-  <distributionManagement>
-    <id>AzurePipelinesTutorial</id>
-    <url>https://pkgs.dev.azure.com/jgilbert90042/269dd93b-ea7f-4dac-9b00-95b28d913c31/_packaging/AzurePipelinesTutorial/maven/v1</url>
-    <releases>
-      <enabled>true</enabled>
-    </releases>
-    <snapshots>
-      <enabled>true</enabled>
-    </snapshots>
-  </distributionManagement>
-	
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
